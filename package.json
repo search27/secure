@@ -1,0 +1,45 @@
+
+{
+  "name": "secure",
+  "version": "1.3.1",
+  "description": "httpsecure",
+  "main": "intro/index.js",
+  "scripts": {
+    "tsc": "tsc -w",
+    "start": "node ./intro/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/search27/secure.git"
+  },
+  "keywords": [
+    "intro",
+    "secure"
+  ],
+  "author": "secureGover <next@naver.com> (http://secureGover.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/search27/secure/issues",
+    "email": "https://next@naver.com"
+  },
+  "homepage": "https://github.com/search27/secure#readme",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
+  },
+  "files": [
+    "secure"
+  ],
+  "browser": "./browser/specific/main.js",
+  "engines": {
+    "node": "~10.16.1",
+    "npm": "~5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.6",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  }
+}
