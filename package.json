@@ -1,36 +1,39 @@
-
 {
-  "name": "secure",
+  "name": "httpPartner",
   "version": "1.3.1",
-  "description": "httpsecure",
+  "description": "httpPartner",
   "main": "intro/index.js",
   "scripts": {
     "tsc": "tsc -w",
-    "start": "node ./intro/index.js"
+    "start": "node ./build/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/search27/secure.git"
+    "url": "git+https://github.com/herapartner/httpPartner"
+
   },
   "keywords": [
-    "intro",
-    "secure"
+    "secure",
+    "httpPartner"
   ],
-  "author": "secureGover <next@naver.com> (http://secureGover.com)",
+  "author": "herapartner <herapartner@@protonmail.com> (http://herapartner.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/search27/secure/issues",
-    "email": "https://next@naver.com"
+    "url": "https://github.com/herapartner/httpPartner/issues",
+    "email": "https://herapartner@@protonmail.com"
   },
-  "homepage": "https://github.com/search27/secure#readme",
+  "homepage": "https://github.com/herapartner/httpPartner#readme",
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.2",
     "bluebird": "^3.7.1",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "yarn": "^1.22.0"
   },
   "files": [
-    "secure"
+    "httpPartner"
   ],
   "browser": "./browser/specific/main.js",
   "engines": {
@@ -38,7 +41,7 @@
     "npm": "~5.6.0"
   },
   "devDependencies": {
-    "@types/node": "^10.17.6",
+    "@types/node": "^10.17.15",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2"
   }

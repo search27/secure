@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": ["es6", "dom"],
+        "esModuleInterop" : false,
+        "noImplicitReturns": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": false,
+        "moduleResolution": "node",
+        // "outDir": "helenaCuteCute",
+        "outDir": "build",
+        "sourceMap": false,
+        "strict": false,
+        "target": "es5",
+        "removeComments": true
+      },
+      "compileOnSave": true,
+      "include": [
+        "intro/**/*"
+      ]
+    }
+    
